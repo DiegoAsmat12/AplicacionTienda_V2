@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionTienda_V2.Server", "AplicacionTienda_V2\Server\AplicacionTienda_V2.Server.csproj", "{0346A55E-4E19-430B-B55D-31C2483A3936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacionTienda_V2.Server", "AplicacionTienda_V2\Server\AplicacionTienda_V2.Server.csproj", "{0346A55E-4E19-430B-B55D-31C2483A3936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionTienda_V2.Client", "AplicacionTienda_V2\Client\AplicacionTienda_V2.Client.csproj", "{7E33C1FA-DD4A-4301-91E0-9BC2BE6DBD6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacionTienda_V2.Client", "AplicacionTienda_V2\Client\AplicacionTienda_V2.Client.csproj", "{7E33C1FA-DD4A-4301-91E0-9BC2BE6DBD6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionTienda_V2.Shared", "AplicacionTienda_V2\Shared\AplicacionTienda_V2.Shared.csproj", "{AD992EB4-3C2E-4761-9CC9-25D1A3FE8EC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacionTienda_V2.Shared", "AplicacionTienda_V2\Shared\AplicacionTienda_V2.Shared.csproj", "{AD992EB4-3C2E-4761-9CC9-25D1A3FE8EC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

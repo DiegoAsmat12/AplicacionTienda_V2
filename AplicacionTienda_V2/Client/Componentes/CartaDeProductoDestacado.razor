@@ -1,10 +1,9 @@
 ﻿<div class="contenedor-producto-destacado">
     <div class="detalles-producto">
         <h1>@Name</h1>
+        <br />
         <p class="informacion">
-            Especialmente bueno para lo que el producto hace.
-            Especialmente bueno para lo que el producto hace.
-            Especialmente bueno para lo que el producto hace.
+            @Informacion
         </p>
         <div class="control">
             <button class="agregar-Carrito">
@@ -18,9 +17,9 @@
         <div class="info">
             <h2>Descripción</h2>
             <ul>
-                <li><a href=""><strong>Marca:</strong>Marcaxdxd</a></li>
-                <li><a href=""><strong>Tienda:</strong>Tiendaxdxd</a></li>
-                <li><a href=""><strong>Ubicacion:</strong>Ubicacionxdxd</a></li>
+                <li><a href=""><strong>Marca:</strong> Marcaxdxd</a></li>
+                <li><a href=""><strong>Tienda:</strong> Tiendaxdxd</a></li>
+                <li><a href=""><strong>Ubicacion:</strong> Ubicacionxdxd</a></li>
             </ul>
         </div>
     </div>
@@ -30,4 +29,5 @@
 @code{
     string Name = "Producto";
     int Precio = 45;
+    string Informacion = "Especialmente bueno para lo que el producto hace.Especialmente bueno para lo que el producto hace.Especialmente bueno para lo que el producto hace.";
 }

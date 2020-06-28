@@ -209,13 +209,13 @@ ul.slides input {
 }
 
 .carousel-controls .prev-slide {
-    width: 20%;
+    width: 10%;
     text-align: left;
     left: 0;
 }
 
 .carousel-controls .next-slide {
-    width: 20%;
+    width: 10%;
     text-align: right;
     right: 0;
 }
@@ -265,15 +265,17 @@ input:checked + .slide-container .nav label {
     margin: 20px;
     padding: 10px;
 
-    .zona-producto > h1 {
-        float: left;
+    .nombre-tipo {
+        display:inline;
+        width:auto;
     }
 
 
     .link-busqueda {
+        font-size:20px;
         color: black;
         float: right;
-        right: 0px;
+        right: 50px;
         position:absolute;
     }
     

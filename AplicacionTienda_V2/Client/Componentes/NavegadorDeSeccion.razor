@@ -1,0 +1,10 @@
+﻿<div class="navegador-seccion">
+    @for(int i = 1; i <= 5; i++)
+    {
+        <button class="button-opcion" onclick="document.getElementById('zona-@i').scrollIntoView({ behavior: 'smooth'})">
+            <img src="Iconos/Busqueda.png"/>
+            <h3>Seccion</h3>
+        </button>
+    }
+</div>
+

@@ -11,6 +11,7 @@ $SombraDropDownMenu: 0px 8px 16px 0px rgba(0,0,0,0.2);
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
+    background: #DCEDF7;
 }
 app {
     display: flex;
@@ -19,7 +20,6 @@ app {
 }
 a{
     text-decoration:none;
-    color:gainsboro;
 }
 
 //Barra de Navegacion Principal
@@ -30,6 +30,10 @@ a{
     position: sticky;
     top: 0px;
     z-index: 1000;
+
+    a{
+        color:gainsboro;
+    }
 
     .barra-navegacion {
         display: flex;
@@ -129,9 +133,35 @@ a{
 
 }
 
+//PaginaPrincipal
+//navegador-seccion
+
+.navegador-seccion {
+    margin: 5px;
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
+    .button-opcion {
+        margin: 2px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius:5px;
+        h3 {
+            margin: 5px;
+            margin-top: 0px;
+            margin-bottom:2px;
+            color: #000;
+            font-size: 15px;
+            font-family: 'Farsan', cursive;
+        }
+    }
+}
+
 //carousel
-.carousel-principal{
-    height:600px;
+.carousel-principal {
+    height: 600px;
 }
 .carousel {
     width:100%;
@@ -275,7 +305,7 @@ input:checked + .slide-container .nav label {
         font-size:20px;
         color: black;
         float: right;
-        right: 50px;
+        right: 80px;
         position:absolute;
     }
     
@@ -298,6 +328,10 @@ input:checked + .slide-container .nav label {
     margin: 1em auto;
     height: 300px;
     width: 700px;
+
+    a{
+        color:white;
+    }
     /* 	Product details  */
     .detalles-producto {
         position: relative;
@@ -478,7 +512,29 @@ input:checked + .slide-container .nav label {
         transform: scale(1.2, 1.2);
     }
 }
+//Fin Pagina Principal
 
+//Pagina Producto
+
+//CartaInfoProducto
+
+.producto-carta-info {
+    background:white;
+    margin:10px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    border-radius:20px;
+    height:600px;
+    box-shadow:$SombraDropDownMenu;
+
+    .contenedor {
+        margin:10px;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 
     #blazor-error-ui {

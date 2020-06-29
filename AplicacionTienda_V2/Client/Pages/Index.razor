@@ -1,9 +1,15 @@
 ﻿@page "/"
 
+<NavegadorDeSeccion/>
 <div class="carousel-principal">
-    <Carousel/>
+    <Carousel />
 </div>
-<ZonaProducto/>
-<ZonaProducto/>
-<ZonaProducto/>
+@for (int i = 1; i <= 5; i++)
+{
+<section id="zona-@i">
+    <ZonaProducto />
+</section>
+    
+}
+
 

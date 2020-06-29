@@ -1,0 +1,11 @@
+﻿@page "/tipoproducto/{id:int}"
+
+<div class="producto-carta-info">
+    <CartaInfoProducto/>
+</div>
+<div class="productos-relacionados">
+
+</div>
+@code{
+    [Parameter] public int id { get; set; }
+}
